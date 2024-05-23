@@ -70,6 +70,7 @@ const register = async (fullName, email, password, phone, dateOfBirth, gender) =
       phone: phone,
       dateOfBirth: dateOfBirth,
       gender: gender,
+      role:'admin'
     };
     await USERS.doc(email).set(userData);
 

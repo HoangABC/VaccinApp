@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
   userInfoText: {
     marginLeft: 10,
     alignItems: 'center',
-    marginStart:0,
+    marginStart:-3,
   },
   userName: {
     color: COLORS.white,
